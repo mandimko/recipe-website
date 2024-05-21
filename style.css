@@ -1,3 +1,29 @@
-header {
-    background-image:("https://th.bing.com/th/id/R.d03ccb57d7d54132da8a59609c9c1467?rik=chxY3Q5BnFmOSQ&pid=ImgRaw&r=0");
+body {
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
 }
+
+header {
+    padding: 20px;
+    text-align: center;
+}
+
+section {
+    padding: 20px;
+    margin-bottom: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+img {
+    border-radius: 10px;
+    flex-direction: column;
+}
+
