@@ -25,5 +25,37 @@ main {
 img {
     border-radius: 10px;
     flex-direction: column;
+    
 }
 
+button {
+background-color: #c59ab2;
+padding: 10px 20px;
+border: none;
+border-radius: 5px;
+cursor: pointer;
+}
+
+button:hover {
+    background-color: #ecdfdf;
+}
+
+footer {
+    background-color: #292121;
+    color: #fff;
+    padding: 60px;
+    text-align: center;
+}
+
+@media(max-width:900px) {
+    h1,
+    h2,
+    h3,
+    h4 {
+    text-align: center;
+    }
+}
+
+@media(min-width:900px) {
+    
+}
